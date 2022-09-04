@@ -6,6 +6,11 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+/**
+ * This Function reverses the string and returns a reversed string.
+ * @param {String} str Takes input as a string which is need to be reversed.
+ * @returns {String} The returned type of the string is a reversed string. 
+ */
 function reverse(str) {
     debugger;
     return str.split('').reduce((prev,curr) => {
@@ -14,10 +19,10 @@ function reverse(str) {
     , '');
 }    //   Here Reduce method takes two first one is a reducer function which takes three argument in which two are mandatory and other one is optional argument i.e. previousValue, currentValue and array || For more information go to following link **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce**
 
-reverse('ashish');
+reverse('Ashish');
 
 module.exports = reverse;
-
+    
 //            1st Solution
 // function reverse(str) {
 //     
@@ -41,7 +46,7 @@ module.exports = reverse;
 //   }
 //   return result;
 // }
-
+           
 
 //           4th Solution
 // function reverse(str) {
