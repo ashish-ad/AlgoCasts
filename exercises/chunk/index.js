@@ -13,8 +13,7 @@ function chunk(array, size) {
   let chunkCarrier = []
   for (let chunkPtr = 0; chunkPtr < array.length; chunkPtr+=size) {
     for (let elementsOfChunk = chunkPtr; elementsOfChunk < chunkPtr+size; elementsOfChunk++){
-      chunkArr.push(array[elementsOfChunk])
-      console.log(chunkArr)
+      if (array[elementsOfChunk]) chunkArr.push(array[elementsOfChunk])
     }
     let copyChunkArr = chunkArr
     chunkCarrier.push([...copyChunkArr])
