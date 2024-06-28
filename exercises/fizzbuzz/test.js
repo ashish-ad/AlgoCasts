@@ -1,4 +1,5 @@
 const fizzBuzz = require('./index');
+const {test} = require('jest');
 
 test('fizzBuzz function is defined', () => {
   expect(fizzBuzz).toBeDefined();
