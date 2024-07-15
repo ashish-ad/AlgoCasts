@@ -19,7 +19,7 @@ const maxProfit = function(prices) {
 };
 
 
-modules.export = maxProfit;
+module.exports = maxProfit;
 
 // This code was written by me.
 // /**
